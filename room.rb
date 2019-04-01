@@ -4,9 +4,10 @@ class Room
 
   def initialize(name, capacity)
     @name = name
-    @guests = []
+    @guests = [] #empty array into which guests are checked
     @capacity = capacity
-    @playlist = []
+    @playlist = [] #empty array to which guests add songs
+    #picked from venue's song list
   end
 
 
